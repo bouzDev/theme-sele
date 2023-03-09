@@ -1,0 +1,30 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "videoLink": "https:\/\/assets.website-files.com\/638625b1b089cf19e2c219ef\/638625b1b089cf6462c21af4_18-bed_header-home_video-transcode.mp4"
+        }
+      },
+      "cookies": {
+        "type": "cookies",
+        "settings": {
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
