@@ -6,7 +6,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 body {
-    background-color: --d_grey;
+    background-color: var(--d_grey);
     width: 100%;
 }
 
@@ -138,6 +138,10 @@ h6 {
 }
 
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     nav {
         padding: 24px 40px;
         ul {
