@@ -1,63 +1,25 @@
-<div class="hero">
-	<div class="hero-container">
-		<div class="hero-wrapper">
-			<h1> {{ section.settings.heading }}</h1>
-			<p> {{ section.settings.description }} </p>
-			<a class="button" href="{{ section.settings.buttonLink }}">{{ section.settings.buttonText }}
-				<div class="arrow">
-					<svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
-							fill="#464E40" />
-					</svg>
-				</div>
-			</a>
-		</div>
-
-		<div class="video-backgound">
-               <video autoplay loop muted playsinline>
-                 <source src="{{ section.settings.videoLink }}" type="video/mp4" />
-                 Your browser does not support the video tag.
-               </video>
-		</div>
-	</div>
+<div class="video-backgound">
+  <video
+    autoplay
+    loop
+    muted
+    playsinline>
+    <source src="{{ section.settings.videoLink }}" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 
-
-
-
 {% schema %}
-{
-"name": "Hero content",
-"settings": [
-{
-"type":"text",
-"label":"Hero heading",
-"id":"heading"
-},
-{
-"type":"richtext",
-"label":"Hero description",
-"id":"description"
-},
-{
-"type":"text",
-"label":"Button text",
-"id":"buttonText"
-},
-{
-"type":"url",
-"label":"Button link",
-"id":"buttonLink"
-},
-
-{
-"type": "url",
-"id": "videoLink",
-"label": "Background Video"
-}
-
-]
-}
+  {
+    "name": "Hero content",
+    "settings": [
+      {
+        "type": "url",
+        "id": "videoLink",
+        "label": "Background Video",
+        "default": "https://assets.website-files.com/638625b1b089cf19e2c219ef/638625b1b089cf6462c21af4_18-bed_header-home_video-transcode.mp4"
+      }
+    ]
+  }
 {% endschema %}
