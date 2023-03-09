@@ -1,0 +1,14 @@
+<div class="search-bar">
+  <form class='search-form'action="{{ routes.search_url }}" method="get" role="search">
+    <div class='search-close'> 
+      <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.28255 12.9088L22.457 23.4581L21.4686 25.1367L0.475953 12.9516L21.4496 0.136718L22.476 1.79268L4.28255 12.9088Z" fill="#65665E"/>
+      </svg>
+    </div>
+    <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search">
+    <button type="submit">
+      {% include 'icon-search' %}
+    </button>
+  </form>
+</div>
+        

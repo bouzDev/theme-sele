@@ -1,0 +1,83 @@
+<div class="product-recommendations" data-product-id="{{ product.id }}" data-limit="4">
+  <div class="product-recommendations-products">
+  {%- if recommendations.products_count > 0 -%}
+    <h2>You may also like</h2>
+
+    <div class="product-grid">
+
+      {%- for product in recommendations.products -%}
+      <a class="single-product" href="{{ product.url | within: collection }}">
+        <div class="ratio-box portrait">
+          <img class="product-image first" src="{{ product.featured_image.src | img_url: 'large' }}"
+            alt="{{ product.featured_image.alt | escape }}">
+          {% if product.media.size > 1 %}
+            {% if product.media[1].media_type == 'image' %}
+              <img class="hover-product-image" src="{{ product.media[1].src | img_url: '1024x1024' }}">
+            {% elsif product.media[1].media_type == 'external_video' %}
+              <div class="hover-product-media">
+                {{ product.media[1] | external_video_url: loop: '1', muted: '1' | external_video_tag }}
+              </div>
+            {% endif %}
+          {% endif %}
+        </div>
+        <h3> {{ product.title}} </h3>
+
+        <div class="button-wrapper">
+          <div class="button" > shop
+            <div class="arrow">
+              <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+                  fill="#464E40" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="price">
+            <span>{{ product.price | money }}</span>
+          </div>
+        </div>
+      </a>
+
+      {%- endfor -%}
+
+    </div>
+  {%- endif -%}
+  </div>
+</div>
+
+{% javascript %}
+var loadProductRecommendationsIntoSection = function() {
+  // Look for an element with class 'product-recommendations'
+  var productRecommendationsSection = document.querySelector(".product-recommendations");
+  if (productRecommendationsSection === null) { return; }
+  // Read product id from data attribute
+  var productId = productRecommendationsSection.dataset.productId;
+  // Read limit from data attribute
+  var limit = productRecommendationsSection.dataset.limit;
+  // Build request URL
+  var requestUrl = "/recommendations/products?section_id=product-recommendations&limit="+limit+"&product_id="+productId;
+  // Create request and submit it using Ajax
+  var request = new XMLHttpRequest();
+  request.open("GET", requestUrl);
+  request.onload = function() {
+    if (request.status >= 200 && request.status < 300) {
+      var container = document.createElement("div");
+      container.innerHTML = request.response;
+      productRecommendationsSection.parentElement.innerHTML = container.querySelector(".product-recommendations").innerHTML;
+    }
+  };
+  request.send();
+};
+// If your section has theme settings, the theme editor
+// reloads the section as you edit those settings. When that happens, the
+// recommendations need to be fetched again.
+// See https://help.shopify.com/en/themes/development/sections/integration-with-theme-editor
+document.addEventListener("shopify:section:load", function(event) {
+  if (event.detail.sectionId === "product-recommendations") {
+    loadProductRecommendationsIntoSection();
+  }
+});
+// Fetching the recommendations on page load
+loadProductRecommendationsIntoSection();
+{% endjavascript %}

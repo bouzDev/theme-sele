@@ -1,0 +1,125 @@
+{% for collection in collections %}
+{% if collection.title == 'Full collection' %}
+
+{%section 'collections-nav' %}
+{% paginate collection.products by 12 %}
+
+<div class="product-collection">
+  <div class="product-collection-container">
+    <div class="product-collection-wrapper">
+
+
+      <h2>{{ collection.title }}</h2>
+
+      <div class="filter-search">
+        {% include 'filter' %}
+        {% include 'sort' %}
+        {% include 'filter-tag' %}
+      </div>
+
+    
+      <div class="product-grid">
+
+        {% for product in collection.products %}
+
+        <a class="single-product" href="{{ product.url | within: collection }}">
+          
+          <div class="ratio-box portrait">
+            <img src="{{ product.featured_image.src | img_url: 'large' }}"
+              alt="{{ product.featured_image.alt | escape }}">
+          </div>
+          
+
+          <h3> {{ product.title}} </h3>
+
+          <div class="button-wrapper">
+            <div class="button"> shop
+              <div class="arrow">
+                <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+                    fill="#464E40" />
+                </svg>
+              </div>
+            </div>
+            
+            {% if product.available %}
+              <span class="price">{{ product.price | money }}</span>
+            {% else %}
+            	<p class='sold-out'><b>Sold out</b></p>
+            {% endif %}
+
+          </div>
+        </a>
+
+
+
+        {% else %}
+        <p>no matches</p>
+        {% endfor %}
+
+      </div>
+      
+      {% if paginate.pages > 1 %}
+      
+       <div class='paginate-links' >
+          {% if paginate.previous.is_link %}
+          <a  class="button" href="{{ paginate.previous.url }}">
+            <div class="arrow" style='padding: 0 1rem 0 0'>
+              <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg" style='transform: rotate(180deg)'>
+                <path
+                  d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+                  fill="#464E40" />
+              </svg>
+            </div>
+            Previous
+          </a>
+          {% else %}
+           <a  class="button" href="{{ paginate.previous.url }}" style='pointer-events: none; opacity:0.4;'>
+            <div class="arrow" style='padding: 0 1rem 0 0'>
+              <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg" style='transform: rotate(180deg)'>
+                <path
+                  d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+                  fill="#464E40" />
+              </svg>
+            </div>
+            Previous
+          </a>
+          {% endif %}
+
+          {% if paginate.next.is_link %}
+          <a  class="button" href="{{ paginate.next.url }}">
+            Next
+            <div class="arrow">
+              <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+                  fill="#464E40" />
+              </svg>
+            </div>
+          </a>
+          {% else %}
+           <a  class="button" href="{{ paginate.next.url }}" style='pointer-events: none; opacity:0.4;'>
+            Next
+            <div class="arrow">
+              <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+                  fill="#464E40" />
+              </svg>
+            </div>
+          </a>
+          {% endif %}
+      
+      
+      
+      {% endif %}
+
+
+    </div>
+  </div>
+</div>
+
+{% endpaginate %}
+{% endif %}
+{% endfor %}

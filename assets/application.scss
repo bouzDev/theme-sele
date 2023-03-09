@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #fffdfa;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #f4f4ec;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #65665e;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #65665e;
+}
+
+main {
+    position: relative;
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}

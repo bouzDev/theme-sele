@@ -1,0 +1,61 @@
+<div class='brands-slider'>
+    
+    <div class='brands-slider-container'>
+        <h2>Brands we work with</h2>
+        <div class='brands-slider-wrap'> 
+            <div class="prev-brands">
+                <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.428223 1.50071L2.08011 0L7.57108 4.995L2.07756 9.99349L0.428223 8.49278L3.11111 6.05747L4.20406 4.99674L3.10344 3.93485L0.428223 1.50071Z"
+                        fill="#464E40" />
+                </svg>
+            </div>
+        
+            <div class='brands-slider-wrapper'>
+                {% for block in section.blocks %}
+                {% case block.type %}
+                {% when 'slide' %}
+                <div class="single-brand">
+                    {{ block.settings.brand | img_url: 'medium' | img_tag}}
+                </div>
+                {% endcase %}
+                {% endfor %}
+            </div> 
+
+            <div class="next-brands">
+                <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.428223 1.50071L2.08011 0L7.57108 4.995L2.07756 9.99349L0.428223 8.49278L3.11111 6.05747L4.20406 4.99674L3.10344 3.93485L0.428223 1.50071Z"
+                        fill="#464E40" />
+                </svg>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+        <span class="slider__label sr-only">
+    </div>
+</div>
+
+{% schema %}
+{
+"name": "Brands",
+"tag": "section",
+"class": "brands",
+"blocks": [
+{
+"name": "Slide",
+"type": "slide",
+"settings": [
+{
+"type": "image_picker",
+"id": "brand",
+"label": "Brand Image"
+}
+]
+}
+]
+}
+
+{% endschema %}

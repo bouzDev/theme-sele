@@ -1,0 +1,22 @@
+<div class='newsletter'>
+{% form 'customer', id: 'ContactFooter' , novalidate: 'novalidate' %}
+    <h3>Subscribe to our newsletter</h3>
+    <div class="input-group">
+        <input class="form-input {% if form.errors %} input-error{% endif %}" type="email" value="{{ form.email }}" name="contact[email]" id="{{ formId }}-email" autocorrect="off" autocapitalize="off"
+            onchange="this.setAttribute('value', this.value);" required>
+        <label class="form-input-label" for="mail">Email address</label>
+    </div>
+    <button type="submit" class="btn" name="subscribe" id="subscribe" value='Subscribe'> Subscribe </button>
+  
+    {%- if form.posted_successfully? -%}
+    <p class="form-message form-message--success" tabindex="-1" data-form-status>
+        Thanks for subscribing!
+  	</p>
+    {%- endif -%}
+{% endform %}
+</div>
+
+
+                   
+
+

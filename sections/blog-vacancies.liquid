@@ -1,0 +1,42 @@
+{% assign blog = blogs.vacancies %}
+
+<h2>Current positions</h2>
+<div class="article-wrapper">
+  {% for article in blog.articles %}
+    <div class="article-single">
+      <div class='ratio-box landscape'>
+        <img src="{{ article.image.src | img_url: 'large' }}" alt="">
+      </div>
+
+      <span class="date">
+        {{ article.published_at | date: "%a, %b %d, %Y" }}</span>
+      <h3>{{ article.title }}</h3>
+      <a class="button" href="{{ article.url }}">Read more
+        <div class="arrow">
+          <svg
+            width="5"
+            height="7"
+            viewBox="0 0 5 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z" fill="#464E40" />
+          </svg>
+        </div>
+      </a>
+
+    </div>
+  {% endfor %}
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Blog Vacancies",
+    "presets": [
+      {
+        "name": "Blog Vacancies"
+      }
+    ]
+  }
+{% endschema %}

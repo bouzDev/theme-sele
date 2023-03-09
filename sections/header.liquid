@@ -1,0 +1,23 @@
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="/pages/about">About</a></li>
+            <li><a href="/collections/full-collection">Products</a></li>
+            <li><a href="#">Configurator</a></li>
+            <li><a href="/pages/showroom">Showroom</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/contact">Contact us</a></li>
+            <li><a href="/pages/faq">FAQ</a></li>
+            <li>
+            <a href="/cart" class="cart">
+                <svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.89153 9.84538L12.9266 1.52649L12.0734 1L6.71958 9.84538H1V10.855H3.57644L6.07644 26H25.9236L28.4236 10.855H31V9.84538H25.2804L19.9266 1L19.0734 1.52649L24.1085 9.84538H7.89153ZM6.92356 24.9903L4.59023 10.855H27.4098L25.0764 24.9903H6.92356Z"
+                    fill="white" stroke="white" />
+                </svg>
+                {% if cart.item_count > 0 %} <div class='cart-count'data-cart-count> <span>{{ cart.item_count }} </span></div> {% endif %}
+            </a>
+            </li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,38 @@
+<div class="article-section">
+  <div class="article-container">
+
+    <div class="article-header">
+
+
+      <a class="button" href="/blogs/stories">
+        <div class="arrow">
+          <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
+              fill="#464E40" />
+          </svg>
+        </div>
+        back
+      </a>
+
+
+
+      <h1>{{ article.title }}</h1>
+
+      <p>{{ article.published_at | date: "%d %B %Y" }}</p>
+    </div>
+
+    <div class="ratio-box article-img"> <img src="{{ article.image.src | img_url: 'master' }}"
+        alt="{{ article.image.alt | escape }}"> </div>
+
+
+    <div class="article-content">
+
+      <div class="article-content-wrapper">
+        {{ article.content }}
+      </div>
+
+    </div>
+
+  </div>
+</div>
