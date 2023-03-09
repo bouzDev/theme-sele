@@ -41,3 +41,16 @@ button {
     all: unset;
     cursor: pointer;
 }
+
+header {
+    nav {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            li.logo {
+                flex-grow: 1;
+            }
+        }
+    }
+}
