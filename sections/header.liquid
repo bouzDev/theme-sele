@@ -2,36 +2,38 @@
   <nav>
     <ul class="nav-links">
       <li>
-        <a class='sr' href="/pages/about">About</a>
+        <a class="sr" href="/pages/about">About</a>
       </li>
       <li>
-        <a class='sr' href="/collections/full-collection">Products</a>
+        <a class="sr" href="/collections/full-collection">Products</a>
       </li>
       <li>
-        <a class='sr' href="#">Configurator</a>
+        <a class="sr" href="#">Configurator</a>
       </li>
       <li>
-        <a class='sr' href="/pages/showroom">Showroom</a>
+        <a class="sr" href="/pages/showroom">Showroom</a>
       </li>
       <li class="logo">
         <a
-          class='sr'
+          class="sr"
           href="/"
-          aria-label="Home">{{ 'sele-logo.svg' | asset_url | img_tag: 'Studio Selé logo' }}</a>
+          aria-label="Home"
+        >
+          {{- 'sele-logo.svg' | asset_url | img_tag: 'Studio Selé logo' -}}
+        </a>
       </li>
       <li>
-        <a class='sr' href="/pages/contact">Contact us</a>
+        <a class="sr" href="/pages/contact">Contact us</a>
       </li>
       <li>
-        <a class='sr' href="/pages/faq">FAQ</a>
+        <a class="sr" href="/pages/faq">FAQ</a>
       </li>
       <li>
-        <a class='sr' href="/cart">
+        <a class="sr" href="/cart">
           cart
           {% if cart.item_count > 0 %}
-            <div class='cart-count' data-cart-count>
-              <span>({{ cart.item_count }})
-              </span>
+            <div class="cart-count" data-cart-count>
+              <span>({{ cart.item_count }}) </span>
             </div>
           {% endif %}
         </a>
