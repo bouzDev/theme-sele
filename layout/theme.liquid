@@ -321,7 +321,7 @@
     {{ content_for_layout }}
   </main>
 
-  {% comment %} {%section 'cookies'%} {% endcomment %}
+  {%section 'cookies'%}
   {% section 'footer' %}
   {{ 'application.js' | asset_url | script_tag }}
 </body>

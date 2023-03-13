@@ -1,0 +1,94 @@
+.collection-container {
+  background-color: var(--beige);
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 150px 0 100px 0;
+  position: relative;
+}
+
+.collection-nav {
+  padding: 60px 40px;
+  position: sticky;
+  top: 40px;
+
+  ul {
+    li {
+      font-family: 'Untitled Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: var(--d_grey);
+      margin-bottom: 10px;
+
+      a {
+        color: var(--m_grey);
+      }
+    }
+  }
+}
+
+.product-collection-container {
+  padding: 0 40px;
+
+  .product-collection-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    max-width: 660px;
+    margin: 0 auto 100px auto;
+
+    h1 {
+      font-family: "RecifeDisplay";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 43px;
+      line-height: 52px;
+      text-align: center;
+      color: var(--d_grey);
+    }
+
+    p {
+      font-family: "Untitled Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: var(--d_grey);
+    }
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    .single-product {
+      img {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      h2 {
+        font-family: "Untitled Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--d_grey);
+      }
+
+      p {
+        font-family: "Untitled Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--m_grey);
+      }
+    }
+  }
+}

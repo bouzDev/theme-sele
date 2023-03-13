@@ -1,9 +1,10 @@
 <div class="collection-nav">
-    <ul>
-    {% for link in linklists.main-menu.links %}
+  <ul>
+    <li>Alle producten</li>
+    {% for link in linklists['collection-menu'].links %}
       <li class="menu-link">
-        <a href='{{ link.url }}'> {{ link.title }}</a>
+        <a href="{{ link.url }}">{{ link.title }}</a>
       </li>
     {% endfor %}
-    </ul>
+  </ul>
 </div>

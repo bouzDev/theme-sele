@@ -25,6 +25,7 @@ ul {
 
 body {
   width: 100%;
+  position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -942,6 +943,21 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  &.dark-header {
+    nav {
+      ul {
+        li {
+          a {
+            color: var(--d_grey);
+          }
+        }
+      }
+    }
+  }
+
   nav {
     padding: 24px 40px;
     ul {
@@ -949,15 +965,17 @@ header {
       gap: 40px;
       list-style-type: none;
       justify-content: center;
-      li.logo {
-        flex-grow: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      a {
-        color: var(--beige);
-      }
+    }
+  }
+
+  a {
+    color: var(--beige);
+
+    &.logo {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
@@ -972,8 +990,28 @@ header {
   }
 }
 
+.cookies-banner {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: var(--d_grey);
+  border-radius: 4px;
+  max-width: 400px;
+  color: var(--l_grey);
+  padding: 25px;
+
+  .cookies-message {
+    margin-bottom: 25px;
+  }
+
+  .cookies-accept {
+    text-decoration: underline;
+    color: #FFFAF3;
+  }
+}
+
 footer {
-  background: #1a1919;
+  background: var(--d_grey);
   padding: 100px 0 50px 0;
 
   nav {
