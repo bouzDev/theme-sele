@@ -1,10 +1,32 @@
 <div class="collection-nav">
   <ul>
     <li>Alle producten</li>
-    {% for link in linklists['collection-menu'].links %}
+    <li class="menu-link">
+      <a href="#">18° bed</a>
+    </li>
+    <li class="menu-link">
+      <a href="#">Vita-100 matras</a>
+    </li>
+    <li class="menu-link">
+      <a href="#">Hoofdbord</a>
+    </li>
+    <li class="menu-link">
+      <a href="#">Cilinder kussen</a>
+    </li>
+    <li class="menu-link">
+      <a href="#">Nachtkastjes</a>
+    </li>
+    <li class="menu-link">
+      <a href="#">Hoofdkussens</a>
+    </li>
+    <li class="menu-link">
+      <a href="#">Dekbedden</a>
+    </li>
+
+    {% comment %} {% for link in linklists['collection-menu'].links %}
       <li class="menu-link">
         <a href="{{ link.url }}">{{ link.title }}</a>
       </li>
-    {% endfor %}
+    {% endfor %} {% endcomment %}
   </ul>
 </div>

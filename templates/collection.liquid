@@ -10,48 +10,23 @@
         <p>{{ collection.description }}</p>
       </div>
 
-      <div class="filter-search">
-        {% comment %}
-          {% include 'filter' %}
-          {% include 'sort' %}
-          {% include 'filter-tag' %}
-        {% endcomment %}
-      </div>
-
       <div class="product-grid">
         {% for product in collection.products %}
-          <a class="single-product" href="{{ product.url | within: collection }}">
+          <a class="single-product" href="{{ product.url }}">
             <div class="ratio-box portrait">
               <img
                 class="product-image first"
                 src="{{ product.featured_image.src | img_url: 'large' }}"
                 alt="{{ product.featured_image.alt | escape }}"
+                loading="lazy"
               >
-              {% if product.media.size > 1 %}
-                {% if product.media[1].media_type == 'image' %}
-                  <img class="hover-product-image" src="{{ product.media[1].src | img_url: '1024x1024' }}">
-                {% elsif product.media[1].media_type == 'external_video' %}
-                  <div class="hover-product-media">
-                    {{ product.media[1] | external_video_url: loop: '1', muted: '1' | external_video_tag }}
-                  </div>
-                {% else %}
-                  <div class="hover-product-video">
-                    {{ product.media[1] | video_tag: autoplay: true, loop: true, muted: true, image_size: '0' }}
-                  </div>
-                {% endif %}
-              {% endif %}
             </div>
 
             <h2>{{ product.title }}</h2>
 
-            <p>
-              {{ product.description | truncate: 100, '...' }}
-              {%- if product.available %}
-                <span class="price">{{ product.price | money }}</span>
-              {% else %}
-                <p class="sold-out"><b>Sold out</b></p>
-              {% endif %}
-            </p>
+            <div class="description">
+              {{ product.description }}
+            </div>
           </a>
         {% else %}
           <p>no matches</p>

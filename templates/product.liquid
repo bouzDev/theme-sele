@@ -1,17 +1,13 @@
-{%section 'collections-nav' %}
+{{ 'product.scss.css' | asset_url | stylesheet_tag }}
 
-<div class="product">
+<div class="product-container">
 
-  <div class="product-container">
-    <div class="filter-search">
-    	{% include 'filter' %}
-    </div>
-    <div class="product-wrapper">
-      <div class="product-column image-column">
-        <div class="product-image-wrapper">
+  <div class="product-wrapper">
+    <div class="product-column image-column">
+      <div class="product-image-wrapper">
         <div class="ratio-box portrait featured-image">
           <img class="product-image first" src="{{ product.featured_image.src | img_url: '1024x1024' }}">
-          {% if product.media.size > 1 %}
+          {% comment %} {% if product.media.size > 1 %}
             {% if product.media[1].media_type == 'image' %}
               <img class="hover-product-image" src="{{ product.media[1].src | img_url: '1024x1024' }}">
             {% elsif product.media[1].media_type == 'external_video' %}
@@ -23,65 +19,67 @@
                 {{ product.media[1] | video_tag: autoplay: true, loop: true, muted: true, image_size: '0' }}
               </div>
             {% endif %}
-          {% endif %}
+          {% endif %} {% endcomment %}
         </div>
 
-        <div class="product-image-wrapper-small">
-        {% for media in product.media %}
-          {% if media.media_type == 'image' %}
-            <div class="ratio-box portrait small-image">
-              <img class="product-image" src="{{ media.src | img_url: '1024x1024' }}" alt="{{ media.alt | escape }}">
-            </div>
-          {% elsif media.media_type == 'external_video' %}
-            <div class="ratio-box portrait small-media">
-              {{ media | external_video_url: loop: '1', muted: '1' | external_video_tag }}
-            </div>
-          {% else %}
-            <div class="ratio-box portrait small-video">
-              {{ media | video_tag: autoplay: true, loop: true, muted: true, image_size: '0' }}
-            </div>
-          {% endif %}
-        {% endfor %}
-        </div>
-        
-        </div>
+        {% comment %} <div class="product-image-wrapper-small">
+          {% for media in product.media %}
+            {% if media.media_type == 'image' %}
+              <div class="ratio-box portrait small-image">
+                <img
+                  class="product-image"
+                  src="{{ media.src | img_url: '1024x1024' }}"
+                  alt="{{ media.alt | escape }}"
+                >
+              </div>
+            {% elsif media.media_type == 'external_video' %}
+              <div class="ratio-box portrait small-media">
+                {{ media | external_video_url: loop: '1', muted: '1' | external_video_tag }}
+              </div>
+            {% else %}
+              <div class="ratio-box portrait small-video">
+                {{ media | video_tag: autoplay: true, loop: true, muted: true, image_size: '0' }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div> {% endcomment %}
       </div>
-      
-      <div class="product-column title-price"> 
-        <h1>{{ product.title }}</h1>
+    </div>
 
-        {% if compare_at_price > price %}
-          <span class="product-price" data-regular-price>
-            from {{ compare_at_price | money }}
-          </span>
-        {% else %}
-          <span class="product-price" data-regular-price>
-            {{ money_price }}
-          </span>
-        {% endif %}
-      </div>
+    <div class="product-column title-price">
+      <h1>{{ product.title }}</h1>
 
-      <div class="product-column">
-       
-        <div>{{ product.description }}</div>
+      {% if compare_at_price > price %}
+        <span class="product-price" data-regular-price> from {{ compare_at_price | money }} </span>
+      {% else %}
+        <span class="product-price" data-regular-price>
+          {{ money_price }}
+        </span>
+      {% endif %}
+    </div>
 
+    <div class="product-column">
+      <div class="description">{{ product.description }}</div>
 
-        <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
-          <input type="checkbox" name="information" value="" required id="confirm_delivery_information" />
-          <label class="container">*I understand the delivery information</label>
+      <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
+        <input type="checkbox" name="information" value="" required id="confirm_delivery_information">
+        <label class="container">*I understand the delivery information</label>
 
-          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"/>
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
-
-          {% if product.variants[1] %}
+        {% if product.variants[1] %}
           <div class="product-variants">
-            <h3> Select your option </h3>
 
             <div class="product-select-wrapper">
               <select name="id" id="ProductSelect-{{ section.id }}" class="product-select">
                 {% for variant in product.variants %}
                   {% if variant.available %}
-                    <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">
+                    <option
+                      {% if variant == product.selected_or_first_available_variant %}
+                        selected="selected"
+                      {% endif %}
+                      value="{{ variant.id }}"
+                    >
                       {{ variant.title }}
                     </option>
                   {% else %}
@@ -89,19 +87,15 @@
                   {% endif %}
                 {% endfor %}
               </select>
-
-          	</div>
-
+            </div>
           </div>
-          {% endif %}
+        {% endif %}
 
-          {% if product.available %}
+        {% if product.available %}
           <div class="add-to-cart">
-            
-            <div class='input-group inline-group'> 
-              
+            <div class="input-group inline-group">
               <div class="input-group-prepend">
-                 <div class="arrow btn-minus">
+                <div class="arrow btn-minus">
                   <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M0 1.0505L1.15632 0L5 3.4965L1.15453 6.99544L0 5.94494L1.87802 4.24023L2.64309 3.49772L1.87265 2.75439L0 1.0505Z"
@@ -109,10 +103,9 @@
                   </svg>
                 </div>
               </div>
-             
-              
-              <input class='form-control quantity' type="number" id="Quantity" name="quantity" value="1" min="1">
-              
+
+              <input class="form-control quantity" type="number" id="Quantity" name="quantity" value="1" min="1">
+
               <div class="input-group-append">
                 <div class="arrow btn-plus">
                   <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -122,13 +115,9 @@
                   </svg>
                 </div>
               </div>
-              
-              
-              
-              
             </div>
 
-        	<button type="submit" name="add" id="AddToCart" class="button" >
+            <button type="submit" name="add" id="AddToCart" class="button">
               <span>Add to cart </span>
               <div class="arrow plus">
                 <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,18 +127,13 @@
                 </svg>
               </div>
             </button>
-
           </div>
 
-          {% else %}
+        {% else %}
           <p><b>Sold out</b></p>
-          {% endif %}
-
-
-        </form>
-
-      </div>
+        {% endif %}
+      </form>
     </div>
-    {% section 'product-recommendations' %}
   </div>
+  {% comment %} {% section 'product-recommendations' %} {% endcomment %}
 </div>
