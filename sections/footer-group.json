@@ -5,44 +5,60 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "0b2c58e8-5170-4527-895d-120fbe240333": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Products",
+            "menu": "footer-products"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "About Selé",
+            "menu": "about-sele"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "608b9f94-6f86-45d3-9bb9-7861b0c0afbd": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Information",
+            "menu": "information"
+          }
+        },
+        "63d0fcb1-7979-4b68-8fc7-23608b96240b": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Support",
+            "menu": "support"
           }
         }
       },
       "block_order": [
+        "0b2c58e8-5170-4527-895d-120fbe240333",
         "footer-0",
         "footer-1",
-        "footer-2"
+        "608b9f94-6f86-45d3-9bb9-7861b0c0afbd",
+        "63d0fcb1-7979-4b68-8fc7-23608b96240b"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
         "margin_top": 48,
-        "padding_top": 36,
+        "padding_top": 72,
         "padding_bottom": 36
       }
     }
