@@ -183,6 +183,7 @@
         --color-base-accent-1: {{ settings.colors_accent_1.red }}, {{ settings.colors_accent_1.green }}, {{ settings.colors_accent_1.blue }};
         --color-base-accent-2: {{ settings.colors_accent_2.red }}, {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
         --payment-terms-background-color: {{ settings.colors_background_1 }};
+        --medium-grey-color: #6D6C6C;
 
         --gradient-base-background-1: {% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %};
         --gradient-base-background-2: {% if settings.gradient_background_2 != blank %}{{ settings.gradient_background_2 }}{% else %}{{ settings.colors_background_2 }}{% endif %};
@@ -363,9 +364,28 @@
 
     {% sections 'header-group' %}
 
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
-    </main>
+    {% if template.name == 'collection' %}
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        <div class="collection-template-layout page-width">
+          <section class="collection-side-menu">
+            <ul class="list-unstyled">
+              <li>Alle producten</li>
+              {% for link in linklists['footer-products'].links %}
+                <li>
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+
+          <section>{{ content_for_layout }}</section>
+        </div>
+      </main>
+    {% else %}
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        {{ content_for_layout }}
+      </main>
+    {% endif %}
 
     {% sections 'footer-group' %}
 
