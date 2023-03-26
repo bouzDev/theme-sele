@@ -1,0 +1,10 @@
+<div class="colors-holder">
+  {% for product_item in product.metafields.custom.grouped_color_products.value -%}
+    <div class="colors-wrapper">
+      <div class="color-border {% if product_item.id != product.id %}hidden{% endif %}"></div>
+      <a href="{{ product_item.url }}" class="link-block">
+        <div class="color-circle" style="background-image: url({{ product_item.metafields.custom.color.value | image_url }})"></div>
+      </a>
+    </div>
+  {%- endfor %}
+</div>

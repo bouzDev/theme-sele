@@ -30,7 +30,7 @@
   .banner--content-align-left.banner--desktop-transparent .banner__box,
   .banner--content-align-right.banner--desktop-transparent .banner__box,
   .banner--medium.banner--desktop-transparent .banner__box {
-    max-width: 68rem;
+    max-width: 60rem;
   }
 }
 
@@ -153,9 +153,14 @@
   width: 50%;
 }
 
+.banner__media-half:first-of-type {
+  width: 60%;
+}
+
 .banner__media-half + .banner__media-half {
   right: 0;
   left: auto;
+  width: 40%;
 }
 
 @media screen and (max-width: 749px) {
@@ -397,6 +402,20 @@
 
 .banner__heading {
   margin-bottom: 0;
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  color: rgb(var(--color-base-background-1));
+  font-size: 14px;
+}
+
+.banner__text {
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: 300;
+  color: rgb(var(--color-base-background-1));
+  font-size: 21px;
+  line-height: 34px;
 }
 
 .banner__box .banner__heading + * {
@@ -434,7 +453,7 @@
 }
 
 .banner__box > * + .banner__buttons {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 @media screen and (max-width: 749px) {

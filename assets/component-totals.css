@@ -29,6 +29,12 @@
   margin-top: 2rem;
 }
 
+.cart-drawer__footer .tax-note {
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(var(--color-base-text));
+}
+
 .cart-drawer__footer .totals {
   align-items: center;
 }

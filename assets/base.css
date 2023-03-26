@@ -1168,6 +1168,20 @@ summary::-webkit-details-marker {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
+
+  .grid--2-col-desktop .grid__item:first-of-type {
+    width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .grid--2-col-desktop .grid__item:last-of-type {
+    width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .grid--2-col-desktop .grid__item .multicolumn-card__info {
+    max-width: 450px;
+  }
 }
 
 @media screen and (min-width: 990px) {
