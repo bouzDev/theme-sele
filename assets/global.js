@@ -929,12 +929,15 @@ class VariantSelects extends HTMLElement {
         const html = new DOMParser().parseFromString(responseText, 'text/html')
         const destination = document.getElementById(`price-${this.dataset.section}`);
         const source = html.getElementById(`price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const buttonPriceDestination = document.getElementById(`add-to-cart-price-${this.dataset.section}`);
+        const buttonPriceSource = html.getElementById(`add-to-cart-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const skuSource = html.getElementById(`Sku-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
+        if (buttonPriceSource && buttonPriceDestination) buttonPriceDestination.innerHTML = buttonPriceSource.innerHTML;
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;

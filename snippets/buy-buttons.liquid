@@ -68,6 +68,15 @@
                 {{ 'products.product.add_to_cart' | t }}
               {%- endif -%}
             </span>
+            <div class="no-js-hidden custom-add-to-cart-price" id="add-to-cart-price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              {%- render 'price',
+                  product: product,
+                  use_variant: true,
+                  show_badges: false,
+                  price_class: 'price--small',
+                  show_dash: true
+              -%}
+            </div>
             <div class="loading-overlay__spinner hidden">
               <svg
                 aria-hidden="true"

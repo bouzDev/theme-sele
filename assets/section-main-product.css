@@ -161,7 +161,7 @@
   flex: 0 0 100%;
   padding: 0;
   margin: 0 0 1.2rem 0;
-  max-width: 37rem;
+  /*max-width: 37rem;*/
   min-width: fit-content;
   border: none;
 }
@@ -273,11 +273,19 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input .select {
-  max-width: 25rem;
+  /*max-width: 25rem;*/
 }
 
 .product-form__submit {
   margin-bottom: 1rem;
+}
+
+.button.product-form__submit:disabled .custom-add-to-cart-price {
+  display: none;
+}
+
+.button.product-form__submit .custom-add-to-cart-price .price__container {
+  margin-bottom: 0;
 }
 
 .no-js .product-form__submit.button--secondary {
