@@ -5,6 +5,10 @@
   color: rgb(var(--color-foreground));
 }
 
+.custom-add-to-cart-price .price {
+  color: white;
+}
+
 .price > * {
   display: inline-block;
   vertical-align: top;
