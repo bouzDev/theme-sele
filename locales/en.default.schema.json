@@ -2864,6 +2864,23 @@
         "name": "Rich text"
       }
     },
+    "hero": {
+      "name": "Hero Section",
+      "settings": {
+        "video": {
+          "label": "Video"
+        },
+        "enable_video_looping": {
+          "label": "Play video on loop"
+        },
+        "enable_video_autoplay": {
+          "label": "Autoplay video"
+        }
+      },
+      "presets": {
+        "name": "Video"
+      }
+    },
     "video": {
       "name": "Video",
       "settings": {

@@ -1,0 +1,56 @@
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  video {
+  width: 100%;
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  {{ section.settings.video
+  | video_tag:
+  loop: section.settings.enable_video_looping,
+  autoplay: section.settings.enable_video_autoplay,
+  controls: false,
+  muted: true
+  }}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.hero.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "video",
+      "id": "video",
+      "label": "t:sections.hero.settings.video.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_looping",
+      "label": "t:sections.hero.settings.enable_video_looping.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_autoplay",
+      "label": "t:sections.hero.settings.enable_video_autoplay.label",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.hero.presets.name"
+    }
+  ]
+}
+{% endschema %}
