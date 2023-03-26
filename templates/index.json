@@ -137,6 +137,50 @@
         "padding_bottom": 52
       }
     },
+    "1f571c16-7a50-42e7-b941-32f24bb011b5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-0": {
+          "type": "column",
+          "settings": {
+            "title": "Dreamy vibes, Sophisticated design",
+            "text": "<p>Selé is in 2021 opgericht in Amsterdam, vanuit de overtuiging dat onze nachtrust en slaapkamer meer aandacht verdienen - zowel op gebied van comfort als kwaliteit. Er is teveel focus op de efficiëntie van de dag komen te liggen, waardoor de balans met de nacht verstoord is geraakt.<\/p>",
+            "link_label": "lees ons verhaal",
+            "link": ""
+          }
+        },
+        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-0",
+        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -222,6 +266,7 @@
     "featured_collection",
     "image_banner",
     "ba30cc0f-d608-4682-908d-91e194b9cd37",
+    "1f571c16-7a50-42e7-b941-32f24bb011b5",
     "multicolumn",
     "07e7fad4-7835-47de-ba82-d62bc2611fb5"
   ]
