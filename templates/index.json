@@ -8,17 +8,17 @@
         "enable_video_autoplay": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "62aede8e-53ea-49b5-ba96-411e8b77ac47": {
+      "type": "homepage-second-section",
       "blocks": {
-        "heading": {
+        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-0": {
           "type": "heading",
           "settings": {
-            "heading": "Waar tijdloos  design en comfort samenkomen",
-            "heading_size": "h1"
+            "heading": "Waar tijdloos design en comfort samenkomen",
+            "heading_size": "hxl"
           }
         },
-        "text": {
+        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-1": {
           "type": "text",
           "settings": {
             "text": "<p>Selé is een designmerk gefocust op de slaapkamer. We doen geen concessies en streven naar het hoogst haalbare comfort en de beste kwaliteit. Dit resulteert in duurzame producten die lokaal worden geproduceerd en gemaakt van natuurlijke materialen.<\/p>"
@@ -26,22 +26,24 @@
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-0",
+        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-1"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "big_image": "shopify:\/\/shop_images\/Sky_Dream-02_1.png",
+        "small_image": "shopify:\/\/shop_images\/clouds.png",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -309,7 +311,7 @@
   },
   "order": [
     "hero",
-    "rich_text",
+    "62aede8e-53ea-49b5-ba96-411e8b77ac47",
     "featured_collection",
     "image_banner",
     "ba30cc0f-d608-4682-908d-91e194b9cd37",
