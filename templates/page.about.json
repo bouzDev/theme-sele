@@ -10,6 +10,9 @@
     },
     "a8924a3a-4e9c-4418-a276-b330f616b56b": {
       "type": "image-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Scene_18_Bed-Walnut-Studio_Sele-01_3.png",
         "image_overlay_opacity": 0,
@@ -18,7 +21,7 @@
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -60,6 +63,10 @@
         "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-1",
         "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-2"
       ],
+      "custom_css": [
+        "h3 {font-family: var(--font-body-family); font-style: var(--font-body-style); font-weight: var(--font-body-weight); font-size: 16px;}",
+        "p {color: rgb(var(--color-base-text));}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -99,6 +106,9 @@
         "template--18385596383523__f835ebdf-3fad-4520-95a2-d9d88efee52c-167995813700bc5154-0",
         "template--18385596383523__f835ebdf-3fad-4520-95a2-d9d88efee52c-167995813700bc5154-1"
       ],
+      "custom_css": [
+        "p {color: rgb(var(--color-base-text));}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sky_Dream-02_1.png",
         "height": "adapt",
@@ -135,6 +145,9 @@
         "757004f1-e824-4012-8a62-6d499b9bafdb",
         "7df68dad-30db-4034-b776-4922fa31e90c"
       ],
+      "custom_css": [
+        "p {color: rgb(var(--color-base-text));}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sky_Dream-02_1.png",
         "height": "adapt",
@@ -161,6 +174,9 @@
       },
       "block_order": [
         "template--18385596383523__af9c205c-31ed-4b5d-876b-fe9e613abfa3-16799578640cc46d38-1"
+      ],
+      "custom_css": [
+        "p {color: rgb(var(--color-base-text));}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -199,6 +215,9 @@
       },
       "block_order": [
         "template--18385596383523__167e2600-2597-4fb6-a98a-ea64343cee68-16799578640cc46d38-1"
+      ],
+      "custom_css": [
+        "p {color: rgb(var(--color-base-text));}"
       ],
       "settings": {
         "desktop_content_position": "center",
