@@ -1206,42 +1206,43 @@ summary::-webkit-details-marker {
 }
 
 /*@media screen and (max-width: 749px) {*/
-  .grid--peek.slider--mobile {
-    margin: 0;
-    width: 100%;
-  }
+.grid--peek.slider--mobile {
+  margin: 0;
+  width: 100%;
+}
 
-  .grid--peek.slider--mobile .grid__item {
-    box-sizing: content-box;
-    margin: 0;
-  }
+.grid--peek.slider--mobile .grid__item {
+  box-sizing: content-box;
+  margin: 0;
+}
 
-  .grid--peek .grid__item {
-    min-width: 35%;
-  }
+.grid--peek .grid__item {
+  min-width: 35%;
+}
 
-  .grid--peek.slider .grid__item:first-of-type {
-    margin-left: 1.5rem;
-  }
+.grid--peek.slider .grid__item:first-of-type {
+  margin-left: 1.5rem;
+}
 
-  /* Fix to show some space at the end of our sliders in all browsers */
-  .grid--peek.slider:after {
-    margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
-  }
+/* Fix to show some space at the end of our sliders in all browsers */
+.grid--peek.slider:after {
+  margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
+}
 
-  .grid--2-col-tablet-down .grid__item {
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
-  }
+.grid--2-col-tablet-down .grid__item {
+  width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+}
 
-  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
-  .grid--peek .grid__item {
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) - 3rem);
-  }
+.slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
+.grid--peek .grid__item {
+  width: calc(50% - var(--grid-mobile-horizontal-spacing) - 3rem);
+}
 
-  .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
-  .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
-    width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
-  }
+.slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
+.slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
+  width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
+}
+
 /*}*/
 
 /*@media screen and (min-width: 750px) and (max-width: 989px) {*/
@@ -3205,4 +3206,38 @@ main > .collection-template-layout {
   .collection-side-menu {
     display: none;
   }
+}
+
+.grid__item.custom_big_section {
+  padding: 40px;
+  min-height: 500px;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://cdn.shopify.com/s/files/1/0731/1651/6643/files/studio-sele-bewerkt-original-size-36_1_1.png');
+}
+
+.grid__item.custom_big_section h2 {
+  color: rgb(var(--color-base-background-1));
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  font-size: 14px;
+}
+
+.grid__item.custom_big_section p {
+  color: rgb(var(--color-base-background-1));
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: 300;
+  font-size: 21px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  max-width: 550px;
+}
+
+.grid__item.custom_big_section .button--secondary:after {
+  content: unset;
 }
