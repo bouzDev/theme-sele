@@ -8,6 +8,28 @@
         "enable_video_autoplay": true
       }
     },
+    "homepage_second_section": {
+      "type": "homepage-second-section",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Waar tijdloos  design en comfort samenkomen",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Selé is een designmerk gefocust op de slaapkamer. We doen geen concessies en streven naar het hoogst haalbare comfort en de beste kwaliteit. Dit resulteert in duurzame producten die lokaal worden geproduceerd en gemaakt van natuurlijke materialen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ]
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -262,6 +284,7 @@
   },
   "order": [
     "hero",
+    "homepage_second_section",
     "rich_text",
     "featured_collection",
     "image_banner",
