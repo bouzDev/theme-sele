@@ -323,7 +323,7 @@
         "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "start configurator",
             "button_link": ""
           }
         }
@@ -332,6 +332,9 @@
         "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0",
         "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1",
         "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2"
+      ],
+      "custom_css": [
+        "a.button {background: #1a1919!important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bed_samen.png",
