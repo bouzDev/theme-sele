@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a8924a3a-4e9c-4418-a276-b330f616b56b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Scene_18_Bed-Walnut-Studio_Sele-01_3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "40d15f5d-510c-4a9c-a48a-246e2dbc767d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-0": {
+          "type": "column",
+          "settings": {
+            "title": "Mental and physical dreamscapes",
+            "text": "<p>Selé focuses on the night, on tranquility and comfort. With warm minimalism of pure materials, designed for a serene sleeping environment.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-1": {
+          "type": "column",
+          "settings": {
+            "title": "The art of refined aesthetics",
+            "text": "<p>De volledige collectie aan slaapkamer producten is vanuit dezelfde duurzame visie ontworpen door onze ontwerper en mede-oprichter Aad Bos.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-2": {
+          "type": "column",
+          "settings": {
+            "title": "Duurzame Nederlandse ambacht",
+            "text": "<p>Met trots kunnen we zeggen dat onze producten volledig in Nederland worden geproduceerd bij productiepartners die al generaties meegaan.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-0",
+        "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-1",
+        "template--18281176203555__40d15f5d-510c-4a9c-a48a-246e2dbc767d-1679957977b9d26bc7-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a8924a3a-4e9c-4418-a276-b330f616b56b",
+    "40d15f5d-510c-4a9c-a48a-246e2dbc767d"
+  ]
+}
