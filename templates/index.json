@@ -8,28 +8,6 @@
         "enable_video_autoplay": true
       }
     },
-    "homepage_second_section": {
-      "type": "homepage-second-section",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Waar tijdloos  design en comfort samenkomen",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Selé is een designmerk gefocust op de slaapkamer. We doen geen concessies en streven naar het hoogst haalbare comfort en de beste kwaliteit. Dit resulteert in duurzame producten die lokaal worden geproduceerd en gemaakt van natuurlijke materialen.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ]
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -203,6 +181,50 @@
         "padding_bottom": 36
       }
     },
+    "5f215b49-a936-46ed-b63f-d13a07ade479": {
+      "type": "homepage-two-columns",
+      "blocks": {
+        "template--18281176170787__5f215b49-a936-46ed-b63f-d13a07ade479-1679951022ce69393a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed_samen.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18281176170787__5f215b49-a936-46ed-b63f-d13a07ade479-1679951022ce69393a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Stel je 18° bed samen",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida. Praesent dolor odio, tincidunt sit amet hendrerit et, suscipit ut urna. Phasellus vel nibh quis dui dignissim suscipit et eget felis. Duis in posuere augue. Aliquam erat volutpat.<\/p>",
+            "link_label": "start configurator",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18281176170787__5f215b49-a936-46ed-b63f-d13a07ade479-1679951022ce69393a-0",
+        "template--18281176170787__5f215b49-a936-46ed-b63f-d13a07ade479-1679951022ce69393a-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -284,12 +306,12 @@
   },
   "order": [
     "hero",
-    "homepage_second_section",
     "rich_text",
     "featured_collection",
     "image_banner",
     "ba30cc0f-d608-4682-908d-91e194b9cd37",
     "1f571c16-7a50-42e7-b941-32f24bb011b5",
+    "5f215b49-a936-46ed-b63f-d13a07ade479",
     "multicolumn",
     "07e7fad4-7835-47de-ba82-d62bc2611fb5"
   ]
