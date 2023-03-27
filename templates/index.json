@@ -302,6 +302,50 @@
         "padding_top": 52,
         "padding_bottom": 52
       }
+    },
+    "a68d47f2-ac07-4402-a63c-963e40103a2f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stel je 18° bed samen",
+            "heading_size": "h1"
+          }
+        },
+        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida. Praesent dolor odio, tincidunt sit amet hendrerit et, suscipit ut urna. Phasellus vel nibh quis dui dignissim suscipit et eget felis. Duis in posuere augue. Aliquam erat volutpat.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0",
+        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1",
+        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bed_samen.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -313,6 +357,7 @@
     "1f571c16-7a50-42e7-b941-32f24bb011b5",
     "5f215b49-a936-46ed-b63f-d13a07ade479",
     "multicolumn",
-    "07e7fad4-7835-47de-ba82-d62bc2611fb5"
+    "07e7fad4-7835-47de-ba82-d62bc2611fb5",
+    "a68d47f2-ac07-4402-a63c-963e40103a2f"
   ]
 }
