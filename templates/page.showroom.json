@@ -2,6 +2,10 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -236,7 +240,7 @@
         "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-2"
       ],
       "custom_css": [
-        "a {background: transparent; color: #1A1919;}"
+        "a {background: transparent; color: #1a1919;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2.png",
