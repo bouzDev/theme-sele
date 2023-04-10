@@ -11,9 +11,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3a689b93-46fd-4cfa-918b-c97e8d1fd64a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18281175744803__3a689b93-46fd-4cfa-918b-c97e8d1fd64a-1681153682ea8fcc63-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay in touch",
+            "heading_size": "h1"
+          }
+        },
+        "template--18281175744803__3a689b93-46fd-4cfa-918b-c97e8d1fd64a-1681153682ea8fcc63-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Het Selé verhaal is nog jong, daarom houden we je graag op de hoogte van de ontwikkelingen omtrent samenwerkingen en nieuwe producten die vanuit dezelfde visie worden ontworpen. Geen ruis of spam, beloofd.<\/p>"
+          }
+        },
+        "template--18281175744803__3a689b93-46fd-4cfa-918b-c97e8d1fd64a-1681153682ea8fcc63-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18281175744803__3a689b93-46fd-4cfa-918b-c97e8d1fd64a-1681153682ea8fcc63-0",
+        "template--18281175744803__3a689b93-46fd-4cfa-918b-c97e8d1fd64a-1681153682ea8fcc63-1",
+        "template--18281175744803__3a689b93-46fd-4cfa-918b-c97e8d1fd64a-1681153682ea8fcc63-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "3a689b93-46fd-4cfa-918b-c97e8d1fd64a"
   ]
 }
