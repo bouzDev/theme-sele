@@ -156,45 +156,50 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "c7c02f2c-edca-4cfc-aa41-9352cbe2e820": {
+      "type": "image-with-text",
       "blocks": {
-        "column-0": {
-          "type": "column",
+        "template--18281175941411__c7c02f2c-edca-4cfc-aa41-9352cbe2e820-1681150092388f1b35-0": {
+          "type": "heading",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Ontvang hout samples",
+            "heading_size": "h1"
           }
         },
-        "column-1": {
-          "type": "column",
+        "template--18281175941411__c7c02f2c-edca-4cfc-aa41-9352cbe2e820-1681150092388f1b35-1": {
+          "type": "text",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Wil je de verschillende soorten hout eerst zien en voelen? Bestel dan onze hout samples. De gemiddelde bezorgtijd is vijf werkdagen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18281175941411__c7c02f2c-edca-4cfc-aa41-9352cbe2e820-1681150092388f1b35-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "hout samples aanvragen",
+            "button_link": "#"
           }
         }
       },
       "block_order": [
-        "column-0",
-        "column-1"
+        "template--18281175941411__c7c02f2c-edca-4cfc-aa41-9352cbe2e820-1681150092388f1b35-0",
+        "template--18281175941411__c7c02f2c-edca-4cfc-aa41-9352cbe2e820-1681150092388f1b35-1",
+        "template--18281175941411__c7c02f2c-edca-4cfc-aa41-9352cbe2e820-1681150092388f1b35-2"
+      ],
+      "custom_css": [
+        "a {background: transparent; color: #1a1919; margin-top: 56px;}",
+        "h2 {margin-bottom: 40px;}"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Ontvang_hout_samples.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -220,7 +225,7 @@
   "order": [
     "main",
     "image-with-text",
-    "multicolumn",
+    "c7c02f2c-edca-4cfc-aa41-9352cbe2e820",
     "related-products"
   ]
 }
