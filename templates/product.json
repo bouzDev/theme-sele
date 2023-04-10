@@ -108,6 +108,102 @@
         "padding_bottom": 12
       }
     },
+    "ce9672bb-8a4c-4a99-b5a0-0d02128afdc3": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18281175941411__ce9672bb-8a4c-4a99-b5a0-0d02128afdc3-16811508102a0f99eb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONFIGURATOR",
+            "heading_size": "h1"
+          }
+        },
+        "template--18281175941411__ce9672bb-8a4c-4a99-b5a0-0d02128afdc3-16811508102a0f99eb-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida.",
+            "text_style": "body"
+          }
+        },
+        "template--18281175941411__ce9672bb-8a4c-4a99-b5a0-0d02128afdc3-16811508102a0f99eb-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "stel je 18° bed samen",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18281175941411__ce9672bb-8a4c-4a99-b5a0-0d02128afdc3-16811508102a0f99eb-0",
+        "template--18281175941411__ce9672bb-8a4c-4a99-b5a0-0d02128afdc3-16811508102a0f99eb-1",
+        "template--18281175941411__ce9672bb-8a4c-4a99-b5a0-0d02128afdc3-16811508102a0f99eb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/studio-sele-bewerkt-original-size-36_1_3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "1b75af54-152a-4f3d-80c1-ec37cf68b389": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18281175941411__1b75af54-152a-4f3d-80c1-ec37cf68b389-1681150092388f1b35-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rustgevende statement pieces",
+            "heading_size": "h1"
+          }
+        },
+        "template--18281175941411__1b75af54-152a-4f3d-80c1-ec37cf68b389-1681150092388f1b35-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Het 18° bed is ontworpen door Aad Bos, Nederlandse ontwerper en mede-oprichter van Selé, vanuit de overtuiging dat de slaapkamer meer aandacht verdient omdat we nergens anders zo veel tijd doorbrengen. Daarbij past een bed waarbij elk detail ertoe doet, zowel in comfort als esthetisch gezien.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18281175941411__1b75af54-152a-4f3d-80c1-ec37cf68b389-1681150092388f1b35-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "afspraak maken",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--18281175941411__1b75af54-152a-4f3d-80c1-ec37cf68b389-1681150092388f1b35-0",
+        "template--18281175941411__1b75af54-152a-4f3d-80c1-ec37cf68b389-1681150092388f1b35-1",
+        "template--18281175941411__1b75af54-152a-4f3d-80c1-ec37cf68b389-1681150092388f1b35-2"
+      ],
+      "custom_css": [
+        "a {background: transparent; color: #1a1919; margin-top: 56px;}",
+        "h2 {margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rustgevende_statement_pieces.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -224,6 +320,8 @@
   },
   "order": [
     "main",
+    "ce9672bb-8a4c-4a99-b5a0-0d02128afdc3",
+    "1b75af54-152a-4f3d-80c1-ec37cf68b389",
     "image-with-text",
     "c7c02f2c-edca-4cfc-aa41-9352cbe2e820",
     "related-products"
