@@ -253,8 +253,7 @@
         "h2 {margin-bottom: 40px;}",
         ".image-with-text__media-item {width: 60%;}",
         ".image-with-text__text-item {width: 40%;}",
-        ".image-with-text__media-item > div {display: flex; align-items: center;}",
-        ".image-with-text__media-item > div > div {padding: 0;}",
+        ".image-with-text__media-item > div {display: flex; align-items: center; padding: 0 !important;}",
         ".image-with-text__media-item img {position: unset;}"
       ],
       "settings": {
@@ -353,7 +352,9 @@
         "a {background: transparent; color: #1a1919; margin-top: 56px;}",
         "h2 {margin-bottom: 40px;}",
         ".image-with-text__media-item {width: 60%;}",
-        ".image-with-text__text-item {width: 40%;}"
+        ".image-with-text__text-item {width: 40%;}",
+        ".image-with-text__media-item > div {display: flex; align-items: center; padding: 0 !important;}",
+        ".image-with-text__media-item img {position: unset;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ontvang_hout_samples.png",
