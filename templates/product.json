@@ -111,34 +111,47 @@
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
+        "b1ca8c23-552a-496c-99a8-899918645991": {
+          "type": "caption",
+          "settings": {
+            "caption": "Showroom",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Bezoek onze showroom",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Eerst zelf het bed ervaren? Bezoek onze unieke pop-up showroom in Amsterdam en ervaar de volledige collectie. Plan zelf een bezoek in of neem contact met ons op voor een afspraak.<\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
+        "b1ca8c23-552a-496c-99a8-899918645991",
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "custom_css": [
+        "h2 {margin-top: 15px; margin-bottom: 40px;}"
+      ],
       "settings": {
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/Bezoek_onze_showroom.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
