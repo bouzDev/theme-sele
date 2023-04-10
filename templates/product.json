@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "14b2f055-bc37-4c3a-b80b-4e0ad050e867": {
+          "type": "color_switcher",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -82,6 +87,7 @@
       },
       "block_order": [
         "title",
+        "14b2f055-bc37-4c3a-b80b-4e0ad050e867",
         "description",
         "caption",
         "variant_picker",
