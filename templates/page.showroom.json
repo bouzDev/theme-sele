@@ -6,9 +6,262 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "5f71aaf3-0e7e-4e48-9ba5-5d488684ca72": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18559926599971__5f71aaf3-0e7e-4e48-9ba5-5d488684ca72-16811508102a0f99eb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bezoek onze unieke pop-up showroom",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--18559926599971__5f71aaf3-0e7e-4e48-9ba5-5d488684ca72-16811508102a0f99eb-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 67px; font-family: var(--font-heading-family);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/showroom_banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "0e5570db-7fe2-47bc-b9d1-e481ef4102f4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18559926599971__0e5570db-7fe2-47bc-b9d1-e481ef4102f4-168115435912243564-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De komende maanden nodigen wij je graag uit om onze unieke pop-up showroom te bezoeken. De volledige collectie aan slaapkamer producten is te bewonderen in dit onlangs gerenoveerd grachtenpand in Amsterdam, gevestigd in een voormalige diamantslijperij uit de 19e eeuw en wordt beschouwd als gemeentelijk monument. <br\/><br\/>De stijl van het pand ligt in lijn met de visie waarmee Selé haar producten ontwerpt. De vele ramen met ronde bogen, en de ronde bogen die in het interieur van de woning zijn gecreëerd, sluiten perfect aan bij onze slaapkamer producten.<\/p>"
+          }
+        },
+        "template--18559926599971__0e5570db-7fe2-47bc-b9d1-e481ef4102f4-168115435912243564-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Afspraak maken",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18559926599971__0e5570db-7fe2-47bc-b9d1-e481ef4102f4-168115435912243564-1",
+        "template--18559926599971__0e5570db-7fe2-47bc-b9d1-e481ef4102f4-168115435912243564-2"
+      ],
+      "custom_css": [
+        "a {background: transparent; border: none !important; color: #1a1919; text-decoration: underline; margin-top: 20px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "c0d3b864-a563-4c2d-8546-0e63f6d848b3": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6343dc6c06870061d1fc0ef2_Showroom_Sele_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "d126e2fb-38b3-4dd9-b699-47ba2b9cbe34": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18559926599971__d126e2fb-38b3-4dd9-b699-47ba2b9cbe34-168115435912243564-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nieuwe Achtergracht 138 Amsterdam",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18559926599971__d126e2fb-38b3-4dd9-b699-47ba2b9cbe34-168115435912243564-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "14a6ae98-b0ec-413d-a7de-1b89469b1f48": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18559926599971__14a6ae98-b0ec-413d-a7de-1b89469b1f48-1681150092388f1b35-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bewonder de volledige slaapkamer collectie",
+            "heading_size": "h1"
+          }
+        },
+        "template--18559926599971__14a6ae98-b0ec-413d-a7de-1b89469b1f48-1681150092388f1b35-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Selé heeft in de afgelopen maanden haar collectie slaapkamer producten verder uitgebreid. Onderstaande producten zijn te bewonderen:<br\/><br\/>- 18° bed in Eiken en Walnoot<br\/>- Headboard met Kvadrat stoffering<br\/>- Cilinderkussen met Kvadrat stoffering<br\/>- Vita-100 matras van 100% Vita Talalay<br\/>- Hoofdkussens<br\/>- Dekbedden<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18559926599971__14a6ae98-b0ec-413d-a7de-1b89469b1f48-1681150092388f1b35-0",
+        "template--18559926599971__14a6ae98-b0ec-413d-a7de-1b89469b1f48-1681150092388f1b35-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bezoek_onze_showroom.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fc0e5441-c2c3-46dc-92ae-d3a5ac114737": {
+      "type": "image-with-text",
+      "blocks": {
+        "612897ab-f7a7-4523-9a6a-c5b1387af8fd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plan je afspraak",
+            "heading_size": "h1"
+          }
+        },
+        "ead549c6-a018-4753-9278-9dcd8e30b845": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wil je onze producten in het echt ervaren, bezoek dan onze unieke pop-up showroom aan de Nieuwe Achtergracht in Amsterdam. Plan zelf een bezoek in of neem contact met ons op om een afspraak in te plannen.<\/p><p><\/p><p><a href=\"#\" title=\"#\">Afspraak maken<\/a><\/p><p><a href=\"#\" title=\"#\">Contact opnemen<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "612897ab-f7a7-4523-9a6a-c5b1387af8fd",
+        "ead549c6-a018-4753-9278-9dcd8e30b845"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_71.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3e3d3f47-600d-4cb2-aab6-7ca4975df8aa": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6343de02ca4cc14992448606_Showroom_Sele_4.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f6847f32-7448-476d-9580-2f2312c135b9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Services for professionals",
+            "heading_size": "h1"
+          }
+        },
+        "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our bedroom products are perfectly suitable for interior designers, stylists and architects who are looking for unique designs without any concessions that has been made on sustainability, quality and comfort. We are looking forward to inspire you and your customers.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "for Professionals",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-0",
+        "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-1",
+        "template--18559926599971__f6847f32-7448-476d-9580-2f2312c135b9-1681150092388f1b35-2"
+      ],
+      "custom_css": [
+        "a {background: transparent; color: #1A1919;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "5f71aaf3-0e7e-4e48-9ba5-5d488684ca72",
+    "0e5570db-7fe2-47bc-b9d1-e481ef4102f4",
+    "c0d3b864-a563-4c2d-8546-0e63f6d848b3",
+    "d126e2fb-38b3-4dd9-b699-47ba2b9cbe34",
+    "14a6ae98-b0ec-413d-a7de-1b89469b1f48",
+    "fc0e5441-c2c3-46dc-92ae-d3a5ac114737",
+    "3e3d3f47-600d-4cb2-aab6-7ca4975df8aa",
+    "f6847f32-7448-476d-9580-2f2312c135b9"
   ]
 }
