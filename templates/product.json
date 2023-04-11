@@ -114,6 +114,9 @@
         "padding_bottom": 12
       }
     },
+    "product-materials": {
+      "type": "product-materials"
+    },
     "23d4676c-3dc0-45f1-84f8-ec5e3d7c3074": {
       "type": "multicolumn",
       "blocks": {
@@ -398,6 +401,7 @@
   },
   "order": [
     "main",
+    "product-materials",
     "23d4676c-3dc0-45f1-84f8-ec5e3d7c3074",
     "ce9672bb-8a4c-4a99-b5a0-0d02128afdc3",
     "1b75af54-152a-4f3d-80c1-ec37cf68b389",

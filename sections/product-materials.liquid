@@ -1,0 +1,19 @@
+{% if product.metafields.custom.grouped_color_products.value %}
+  <div class="page-width" style="padding-top: 72px; padding-bottom: 72px;">
+    <h2 class="h1">Materials {{ product.metafields.custom.grouped_color_products.size }}</h2>
+    <div class="materials-wrapper">
+      {% for product_item in product.metafields.custom.grouped_color_products.value -%}
+        <div class="material-item">
+          {{ product_item.metafields.custom.material_image.value | image_url: height: 425 | image_tag: loading: lazy }}
+          <div class="material-info-wrapper">
+            {{ product_item.metafields.custom.color.value | image_url: height: 50 | image_tag: loading: lazy }}
+            <div class="material-info">
+              <p class="material-name">{{ product_item.metafields.custom.material.value }}</p>
+              <p class="material-description">Europe</p>
+            </div>
+          </div>
+        </div>
+      {%- endfor %}
+    </div>
+  </div>
+{% endif %}

@@ -1570,3 +1570,48 @@ a.product__text {
   background-position: 0 0;
   background-size: auto;
 }
+
+.materials-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+}
+
+@media screen and (min-width: 990px) {
+  .materials-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.materials-wrapper img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.materials-wrapper .material-info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.materials-wrapper .material-info-wrapper img {
+  width: 50px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.materials-wrapper .material-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.materials-wrapper .material-info .material-name {
+  color: rgb(var(--color-base-accent-1));
+  margin: 0;
+}
+
+.materials-wrapper .material-info .material-description {
+  color: var(--medium-grey-color);
+  margin: 0;
+}
