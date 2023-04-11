@@ -294,12 +294,20 @@
             "text": "<p>Eerst zelf het bed ervaren? Bezoek onze unieke pop-up showroom in Amsterdam en ervaar de volledige collectie. Plan zelf een bezoek in of neem contact met ons op voor een afspraak.<\/p>",
             "text_style": "body"
           }
+        },
+        "13106fed-5df4-459a-b572-e0c06d54e6a4": {
+          "type": "button",
+          "settings": {
+            "button_label": "ontdek showroom",
+            "button_link": "#"
+          }
         }
       },
       "block_order": [
         "b1ca8c23-552a-496c-99a8-899918645991",
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "13106fed-5df4-459a-b572-e0c06d54e6a4"
       ],
       "custom_css": [
         "h2 {margin-top: 15px; margin-bottom: 40px;}"
