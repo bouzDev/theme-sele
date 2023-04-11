@@ -115,62 +115,8 @@
       }
     },
     "product-materials": {
-      "type": "product-materials"
-    },
-    "23d4676c-3dc0-45f1-84f8-ec5e3d7c3074": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--18281175941411__23d4676c-3dc0-45f1-84f8-ec5e3d7c3074-1681150931122743aa-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/studio-sele-bewerkt-original-size-42_1.png",
-            "title": "",
-            "text": "<p>Oak \/ Europe<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18281175941411__23d4676c-3dc0-45f1-84f8-ec5e3d7c3074-1681150931122743aa-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/studio-sele-bewerkt-original-size-1_1.png",
-            "title": "",
-            "text": "<p>Walnut \/ Europe<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18281175941411__23d4676c-3dc0-45f1-84f8-ec5e3d7c3074-1681150931122743aa-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/studio-sele-bewerkt-original-size-20_1.png",
-            "title": "",
-            "text": "<p>Oak with Black Lak \/ Europe<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18281175941411__23d4676c-3dc0-45f1-84f8-ec5e3d7c3074-1681150931122743aa-0",
-        "template--18281175941411__23d4676c-3dc0-45f1-84f8-ec5e3d7c3074-1681150931122743aa-1",
-        "template--18281175941411__23d4676c-3dc0-45f1-84f8-ec5e3d7c3074-1681150931122743aa-2"
-      ],
+      "type": "product-materials",
       "settings": {
-        "title": "Materials",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "ce9672bb-8a4c-4a99-b5a0-0d02128afdc3": {
@@ -402,7 +348,6 @@
   "order": [
     "main",
     "product-materials",
-    "23d4676c-3dc0-45f1-84f8-ec5e3d7c3074",
     "ce9672bb-8a4c-4a99-b5a0-0d02128afdc3",
     "1b75af54-152a-4f3d-80c1-ec37cf68b389",
     "image-with-text",
