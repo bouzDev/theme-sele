@@ -3,9 +3,7 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "video": "shopify:\/\/files\/videos\/oak.mp4",
-        "enable_video_looping": true,
-        "enable_video_autoplay": true
+        "image": "shopify:\/\/shop_images\/studio-sele-bed-frame.webp"
       }
     },
     "62aede8e-53ea-49b5-ba96-411e8b77ac47": {
