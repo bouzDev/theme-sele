@@ -7,10 +7,14 @@
   }
 {%- endstyle -%}
 
-<section>
-
-
-</section>
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  {{ section.settings.video
+   | video_tag:
+   loop: section.settings.enable_video_looping,
+   autoplay: section.settings.enable_video_autoplay,
+   controls: false,
+   muted: true }}
+</div>
 
 {% schema %}
   {
