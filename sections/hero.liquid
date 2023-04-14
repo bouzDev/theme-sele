@@ -1,20 +1,10 @@
-{{ 'video-section.css' | asset_url | stylesheet_tag }}
-{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
-
-{%- style -%}
-  video {
-    width: 100%;
-  }
-{%- endstyle -%}
-
-<section>
-
-
+<section class="home-hero">
+  <img src="{{ section.settings.image | img_url: 'large' }}" />
 </section>
 
 {% schema %}
   {
-    "name": "t:sections.hero.name",
+    "name": "Hero content",
     "tag": "section",
     "class": "section",
     "disabled_on": {
@@ -22,19 +12,9 @@
     },
     "settings": [
       {
-        "type": "video",
-        "id": "video",
-        "label": "t:sections.hero.settings.video.label"
-      }, {
-        "type": "checkbox",
-        "id": "enable_video_looping",
-        "label": "t:sections.hero.settings.enable_video_looping.label",
-        "default": true
-      }, {
-        "type": "checkbox",
-        "id": "enable_video_autoplay",
-        "label": "t:sections.hero.settings.enable_video_autoplay.label",
-        "default": true
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
       }
     ],
     "presets": [
