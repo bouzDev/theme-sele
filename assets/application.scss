@@ -17,6 +17,7 @@
     justify-content: center;
     padding: 200px 0;
     .custom-container {
+        display: flex;
         justify-content: space-between;
         padding: 0 150px;
         align-items: center;
@@ -50,6 +51,33 @@
                 position: absolute;
                 right: 0px;
                 bottom: 80px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 75px) {
+    .creative-block {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0;
+        .custom-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: unset;
+            padding: 0 20px;
+
+            .creative-block-left {
+                position: relative;
+                z-index: 2;
+                h2 {
+                    font-size: 54px;
+                    line-height: 120%;
+                }
+            }
+
+            .creative-block-right {
+                order: 1;
             }
         }
     }
