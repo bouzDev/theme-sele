@@ -5,8 +5,8 @@
       <div class="creative-block-description">{{ section.settings.description }}</div>
     </div>
     <div class="creative-block-right">
-      <img src="{{ section.settings.image | img_url: 'master' }}" />
-      <img src="{{ section.settings.imageSmall | img_url: 'large' }}" />
+      <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ product.featured_image.alt | escape }}" />
+      <img src="{{ section.settings.imageSmall | img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}" />
     </div>
   </div>
 </section>
