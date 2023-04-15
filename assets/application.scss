@@ -17,9 +17,9 @@
     justify-content: center;
     padding: 200px 0;
     .custom-container {
-        display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding: 0 150px;
+        align-items: center;
 
         .creative-block-left {
             position: relative;
