@@ -1,323 +1,285 @@
 {
-  "sections": {
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "video": "shopify:\/\/files\/videos\/oak.mp4",
-        "enable_video_looping": true,
-        "enable_video_autoplay": true
-      }
-    },
-    "62aede8e-53ea-49b5-ba96-411e8b77ac47": {
-      "type": "homepage-second-section",
-      "blocks": {
-        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Waar tijdloos design en comfort samenkomen",
-            "heading_size": "hxl"
-          }
+    "sections": {
+        "hero": {
+            "type": "hero",
+            "settings": {
+                "video": "shopify://files/videos/oak.mp4",
+                "enable_video_looping": true,
+                "enable_video_autoplay": true
+            }
         },
-        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Selé is een designmerk gefocust op de slaapkamer. We doen geen concessies en streven naar het hoogst haalbare comfort en de beste kwaliteit. Dit resulteert in duurzame producten die lokaal worden geproduceerd en gemaakt van natuurlijke materialen.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-0",
-        "template--18281176170787__62aede8e-53ea-49b5-ba96-411e8b77ac47-1679952830d6db6b6f-1"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "big_image": "shopify:\/\/shop_images\/Sky_Dream-02_1.png",
-        "small_image": "shopify:\/\/shop_images\/clouds.png",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "CONFIGURATOR",
-            "heading_size": "h2"
-          }
+        "creative-block": {
+            "type": "creative-block"
         },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "stel je 18° bed samen",
-            "button_link_1": "shopify:\/\/pages\/configurator",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/studio-sele-bewerkt-original-size-36_1.png",
-        "image_2": "shopify:\/\/shop_images\/Sky.png",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "top-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "ba30cc0f-d608-4682-908d-91e194b9cd37": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18281176170787__ba30cc0f-d608-4682-908d-91e194b9cd37-1679842041da31b22e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Let us introduce to you: Selé",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--18281176170787__ba30cc0f-d608-4682-908d-91e194b9cd37-1679842041da31b22e-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 52
-      }
-    },
-    "1f571c16-7a50-42e7-b941-32f24bb011b5": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-0": {
-          "type": "column",
-          "settings": {
-            "title": "Dreamy vibes, Sophisticated design",
-            "text": "<p>Selé is in 2021 opgericht in Amsterdam, vanuit de overtuiging dat onze nachtrust en slaapkamer meer aandacht verdienen - zowel op gebied van comfort als kwaliteit. Er is teveel focus op de efficiëntie van de dag komen te liggen, waardoor de balans met de nacht verstoord is geraakt.<\/p>",
-            "link_label": "lees ons verhaal",
-            "link": ""
-          }
-        },
-        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Image_1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-0",
-        "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
-    "a68d47f2-ac07-4402-a63c-963e40103a2f": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stel je 18° bed samen",
-            "heading_size": "h1"
-          }
-        },
-        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida. Praesent dolor odio, tincidunt sit amet hendrerit et, suscipit ut urna. Phasellus vel nibh quis dui dignissim suscipit et eget felis. Duis in posuere augue. Aliquam erat volutpat.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "start configurator",
-            "button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0",
-        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1",
-        "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2"
-      ],
-      "custom_css": [
 
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/bed_samen.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "ee6c3263-59f6-485c-b5d3-4e2489b8105b": {
-          "type": "column",
-          "settings": {
-            "title": "Ontdek de wereld van Selé",
-            "text": "<p>Bezoek onze unieke pop-up showroom in Amsterdam en ervaar de volledige collectie. Plan zelf een bezoek in of neem contact met ons op voor een afspraak.<\/p>",
-            "link_label": "afspraak maken",
-            "link": ""
-          }
+        "featured_collection": {
+            "type": "featured-collection",
+            "settings": {
+                "title": "",
+                "heading_size": "h2",
+                "description": "",
+                "show_description": false,
+                "description_style": "body",
+                "collection": "all",
+                "products_to_show": 8,
+                "columns_desktop": 4,
+                "full_width": false,
+                "show_view_all": false,
+                "view_all_style": "solid",
+                "enable_desktop_slider": false,
+                "color_scheme": "background-1",
+                "image_ratio": "adapt",
+                "show_secondary_image": true,
+                "show_vendor": false,
+                "show_rating": false,
+                "enable_quick_add": false,
+                "columns_mobile": "2",
+                "swipe_on_mobile": false,
+                "padding_top": 28,
+                "padding_bottom": 36
+            }
         },
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bedroom.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
+        "image_banner": {
+            "type": "image-banner",
+            "blocks": {
+                "heading": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "CONFIGURATOR",
+                        "heading_size": "h2"
+                    }
+                },
+                "text": {
+                    "type": "text",
+                    "settings": {
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida.",
+                        "text_style": "body"
+                    }
+                },
+                "button": {
+                    "type": "buttons",
+                    "settings": {
+                        "button_label_1": "stel je 18° bed samen",
+                        "button_link_1": "shopify://pages/configurator",
+                        "button_style_secondary_1": false,
+                        "button_label_2": "",
+                        "button_link_2": "",
+                        "button_style_secondary_2": false
+                    }
+                }
+            },
+            "block_order": ["heading", "text", "button"],
+            "settings": {
+                "image": "shopify://shop_images/studio-sele-bewerkt-original-size-36_1.png",
+                "image_2": "shopify://shop_images/Sky.png",
+                "image_overlay_opacity": 40,
+                "image_height": "large",
+                "desktop_content_position": "top-left",
+                "show_text_box": false,
+                "desktop_content_alignment": "left",
+                "color_scheme": "background-1",
+                "image_behavior": "none",
+                "mobile_content_alignment": "left",
+                "stack_images_on_mobile": true,
+                "show_text_below": false
+            }
+        },
+        "ba30cc0f-d608-4682-908d-91e194b9cd37": {
+            "type": "rich-text",
+            "blocks": {
+                "template--18281176170787__ba30cc0f-d608-4682-908d-91e194b9cd37-1679842041da31b22e-0": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Let us introduce to you: Selé",
+                        "heading_size": "h1"
+                    }
+                }
+            },
+            "block_order": [
+                "template--18281176170787__ba30cc0f-d608-4682-908d-91e194b9cd37-1679842041da31b22e-0"
+            ],
+            "settings": {
+                "desktop_content_position": "center",
+                "content_alignment": "center",
+                "color_scheme": "background-1",
+                "full_width": true,
+                "padding_top": 100,
+                "padding_bottom": 52
+            }
+        },
+        "1f571c16-7a50-42e7-b941-32f24bb011b5": {
+            "type": "multicolumn",
+            "blocks": {
+                "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-0": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Dreamy vibes, Sophisticated design",
+                        "text": "<p>Selé is in 2021 opgericht in Amsterdam, vanuit de overtuiging dat onze nachtrust en slaapkamer meer aandacht verdienen - zowel op gebied van comfort als kwaliteit. Er is teveel focus op de efficiëntie van de dag komen te liggen, waardoor de balans met de nacht verstoord is geraakt.</p>",
+                        "link_label": "lees ons verhaal",
+                        "link": ""
+                    }
+                },
+                "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-1": {
+                    "type": "column",
+                    "settings": {
+                        "image": "shopify://shop_images/Image_1.png",
+                        "title": "",
+                        "text": "",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-0",
+                "template--18281176170787__1f571c16-7a50-42e7-b941-32f24bb011b5-16798631118df6a812-1"
+            ],
+            "settings": {
+                "title": "",
+                "heading_size": "h1",
+                "image_width": "full",
+                "image_ratio": "adapt",
+                "columns_desktop": 2,
+                "column_alignment": "left",
+                "background_style": "none",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "background-1",
+                "columns_mobile": "1",
+                "swipe_on_mobile": false,
+                "padding_top": 48,
+                "padding_bottom": 48
+            }
+        },
+        "a68d47f2-ac07-4402-a63c-963e40103a2f": {
+            "type": "image-with-text",
+            "blocks": {
+                "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Stel je 18° bed samen",
+                        "heading_size": "h1"
+                    }
+                },
+                "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id neque in tempor. Cras sodales gravida dui ut gravida. Praesent dolor odio, tincidunt sit amet hendrerit et, suscipit ut urna. Phasellus vel nibh quis dui dignissim suscipit et eget felis. Duis in posuere augue. Aliquam erat volutpat.</p>",
+                        "text_style": "body"
+                    }
+                },
+                "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2": {
+                    "type": "button",
+                    "settings": {
+                        "button_label": "start configurator",
+                        "button_link": "#"
+                    }
+                }
+            },
+            "block_order": [
+                "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-0",
+                "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-1",
+                "template--18281176170787__a68d47f2-ac07-4402-a63c-963e40103a2f-167995144446ff6dcb-2"
+            ],
+            "custom_css": [],
+            "settings": {
+                "image": "shopify://shop_images/bed_samen.png",
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "layout": "image_first",
+                "desktop_content_position": "middle",
+                "desktop_content_alignment": "center",
+                "content_layout": "no-overlap",
+                "color_scheme": "background-2",
+                "mobile_content_alignment": "center",
+                "padding_top": 48,
+                "padding_bottom": 48
+            }
+        },
+        "multicolumn": {
+            "type": "multicolumn",
+            "blocks": {
+                "ee6c3263-59f6-485c-b5d3-4e2489b8105b": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Ontdek de wereld van Selé",
+                        "text": "<p>Bezoek onze unieke pop-up showroom in Amsterdam en ervaar de volledige collectie. Plan zelf een bezoek in of neem contact met ons op voor een afspraak.</p>",
+                        "link_label": "afspraak maken",
+                        "link": ""
+                    }
+                },
+                "column1": {
+                    "type": "column",
+                    "settings": {
+                        "image": "shopify://shop_images/bedroom.png",
+                        "title": "",
+                        "text": "",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": ["ee6c3263-59f6-485c-b5d3-4e2489b8105b", "column1"],
+            "settings": {
+                "title": "",
+                "heading_size": "h1",
+                "image_width": "full",
+                "image_ratio": "adapt",
+                "columns_desktop": 2,
+                "column_alignment": "left",
+                "background_style": "none",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "background-1",
+                "columns_mobile": "1",
+                "swipe_on_mobile": false,
+                "padding_top": 48,
+                "padding_bottom": 48
+            }
+        },
+        "07e7fad4-7835-47de-ba82-d62bc2611fb5": {
+            "type": "newsletter",
+            "blocks": {
+                "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-0": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Stay in touch",
+                        "heading_size": "h1"
+                    }
+                },
+                "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-1": {
+                    "type": "paragraph",
+                    "settings": {
+                        "text": "<p>Het Selé verhaal is nog jong, daarom houden we je graag op de hoogte van de ontwikkelingen omtrent samenwerkingen en nieuwe producten die vanuit dezelfde visie worden ontworpen. Geen ruis of spam, beloofd.</p>"
+                    }
+                },
+                "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-2": {
+                    "type": "email_form",
+                    "settings": {}
+                }
+            },
+            "block_order": [
+                "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-0",
+                "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-1",
+                "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-2"
+            ],
+            "settings": {
+                "color_scheme": "background-1",
+                "full_width": true,
+                "padding_top": 52,
+                "padding_bottom": 52
+            }
         }
-      },
-      "block_order": [
-        "ee6c3263-59f6-485c-b5d3-4e2489b8105b",
-        "column1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
     },
-    "07e7fad4-7835-47de-ba82-d62bc2611fb5": {
-      "type": "newsletter",
-      "blocks": {
-        "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay in touch",
-            "heading_size": "h1"
-          }
-        },
-        "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Het Selé verhaal is nog jong, daarom houden we je graag op de hoogte van de ontwikkelingen omtrent samenwerkingen en nieuwe producten die vanuit dezelfde visie worden ontworpen. Geen ruis of spam, beloofd.<\/p>"
-          }
-        },
-        "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-0",
-        "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-1",
-        "template--18281176170787__07e7fad4-7835-47de-ba82-d62bc2611fb5-1679841941b78914c2-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    }
-  },
-  "order": [
-    "hero",
-    "62aede8e-53ea-49b5-ba96-411e8b77ac47",
-    "featured_collection",
-    "image_banner",
-    "ba30cc0f-d608-4682-908d-91e194b9cd37",
-    "1f571c16-7a50-42e7-b941-32f24bb011b5",
-    "a68d47f2-ac07-4402-a63c-963e40103a2f",
-    "multicolumn",
-    "07e7fad4-7835-47de-ba82-d62bc2611fb5"
-  ]
+    "order": [
+        "hero",
+        "creative-block",
+        "featured_collection",
+        "image_banner",
+        "ba30cc0f-d608-4682-908d-91e194b9cd37",
+        "1f571c16-7a50-42e7-b941-32f24bb011b5",
+        "a68d47f2-ac07-4402-a63c-963e40103a2f",
+        "multicolumn",
+        "07e7fad4-7835-47de-ba82-d62bc2611fb5"
+    ]
 }

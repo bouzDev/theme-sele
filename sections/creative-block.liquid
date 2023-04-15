@@ -1,0 +1,38 @@
+<section class="creative-block">
+  <div class="creative-block-left">
+    <h2>{{ section.settings.heading }}</h2>
+    <div>{{ section.settings.description }}</div>
+  </div>
+  <div class="creative-block-right">
+    <img src="{{ section.settings.image | img_url: 'master' }}" />
+    <img src="{{ section.settings.imageSmall | img_url: 'large' }}" />
+  </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Creative Block",
+    "settings": [
+      {
+        "type": "text",
+        "label": "About heading",
+        "id": "heading"
+      }, {
+        "type": "richtext",
+        "label": "Service information",
+        "id": "information"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }, {
+        "type": "image_picker",
+        "id": "imageSmall",
+        "label": "Image Small"
+      }
+
+    ]
+  }
+{% endschema %}
