@@ -15,4 +15,32 @@
 .creative-block {
     display: flex;
     justify-content: center;
+    padding: 0 200px;
+    .custom-container {
+        display: flex;
+        justify-content: center;
+        padding: 0 150px;
+        h2 {
+            font-family: 'RecifeDisplay';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 84px;
+            line-height: 120%;
+            color: #1a1919;
+            max-width: 776px;
+        }
+
+        .creative-block-description {
+            max-width: 426px;
+        }
+
+        .creative-block-right {
+            position: relative;
+            img:nth-of-type(2) {
+                position: absolute;
+                right: 0px;
+                bottom: 80px;
+            }
+        }
+    }
 }
