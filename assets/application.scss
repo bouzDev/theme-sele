@@ -20,22 +20,32 @@
         display: flex;
         justify-content: center;
         padding: 0 150px;
-        h2 {
-            font-family: 'RecifeDisplay';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 84px;
-            line-height: 120%;
-            color: #1a1919;
-            max-width: 776px;
-        }
 
-        .creative-block-description {
-            max-width: 426px;
+        .creative-block-left {
+            position: relative;
+            z-index: 2;
+            h2 {
+                font-family: 'RecifeDisplay';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 84px;
+                line-height: 120%;
+                color: #1a1919;
+                max-width: 776px;
+            }
+
+            .creative-block-description {
+                max-width: 426px;
+            }
         }
 
         .creative-block-right {
+            z-index: 1;
             position: relative;
+            margin-right: -50%;
+            img:nth-of-type(1) {
+                padding-right: 116px;
+            }
             img:nth-of-type(2) {
                 position: absolute;
                 right: 0px;
