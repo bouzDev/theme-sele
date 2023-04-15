@@ -7,3 +7,12 @@
         object-fit: cover;
     }
 }
+
+.custom-container {
+    max-width: 1400px;
+}
+
+.creative-block {
+    display: flex;
+    justify-content: center;
+}
