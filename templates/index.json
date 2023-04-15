@@ -3,9 +3,7 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "video": "shopify:\/\/files\/videos\/oak.mp4",
-        "enable_video_looping": true,
-        "enable_video_autoplay": true
+        "image": "shopify:\/\/shop_images\/studio-sele-bed-frame.webp"
       }
     },
     "62aede8e-53ea-49b5-ba96-411e8b77ac47": {
@@ -33,7 +31,7 @@
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
-        "full_width": true,
+        "full_width": false,
         "big_image": "shopify:\/\/shop_images\/Sky_Dream-02_1.png",
         "small_image": "shopify:\/\/shop_images\/clouds.png",
         "padding_top": 100,
